@@ -21,8 +21,12 @@ function Header() {
   return (
     <ThemeProvider theme={darkTheme}>
 
-        <div className='w-full h-[10vh] bg-[#21209C] flex flex-row justify-between items-center px-2 '>
-            <h1 className='text-2xl font-bold text-[#FDB827] font-Montserrat hover:cursor-pointer'
+        <div className='w-full h-[10vh] bg-[#21209C] flex flex-row justify-between items-center px-2 
+     sm:px-4
+        '>
+
+
+            <h1 className='text-lg font-bold text-[#FDB827] font-Montserrat hover:cursor-pointer'
             onClick={() => navigate('/')}
             > Krypto Tracker </h1>
 
